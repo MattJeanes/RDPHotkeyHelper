@@ -5,6 +5,7 @@
 
 #SingleInstance Force
 KeyHistory(0)
+A_HotkeyInterval := 0
 If (!A_IsCompiled && FileExist("rhh.ico")) {
   TraySetIcon("rhh.ico")
 }
